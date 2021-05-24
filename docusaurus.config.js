@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Mega Manipulator (m²)',
   tagline: 'Change everything',
-  url: 'https://github.com/jensim/mega-manipulator',
+  url: 'https://github.com/mega-manipulator/mega-manipulator.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'mega-manipulator', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Mega Manipilator',
+      title: 'Mega Manipulator',
       /*logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
