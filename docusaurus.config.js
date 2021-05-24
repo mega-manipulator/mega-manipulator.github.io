@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Mega Manipulator (m²)',
   tagline: 'Change everything',
-  url: 'https://github.com/mega-manipulator/mega-manipulator.github.io',
+  url: 'https://github.com/jensim/mega-manipulator',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
