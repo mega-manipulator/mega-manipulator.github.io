@@ -14,5 +14,12 @@ Copy the search from the web to the plugin.
 Same caveats as with `src cli` apply.  
 You might need to set the `petternType:structural` if you are not doing a literal search, or case sensitive. These values are set in the url (but with `=` delimiter instead of `:`, if you don't know how to pinpoint naming)
 
+## Developing
+
+#### GraphQL schema
+```shell
+npx get-graphql-schema 'https://sourcegraph.com/.api/graphql' > gitlab.graphql.schema
+```
+
 [docker_hub_oss]: https://hub.docker.com/r/jensim/sourcegraph-server-oss/tags?page=1&ordering=last_updated
 [docker_sg]: https://hub.docker.com/r/sourcegraph/server

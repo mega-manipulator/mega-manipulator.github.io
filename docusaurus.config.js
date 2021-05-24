@@ -2,8 +2,8 @@
 module.exports = {
   title: 'Mega Manipulator (m²)',
   tagline: 'Change everything',
-  url: 'https://github.com/jensim/mega-manipulator',
-  baseUrl: '/mega-manipulator/',
+  url: 'https://github.com/mega-manipulator/mega-manipulator.github.io',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'https://raw.githubusercontent.com/jensim/mega-manipulator/main/src/main/resources/META-INF/pluginIcon.svg',
@@ -85,8 +85,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/jensim/mega-manipulator/tree/docs',
+          editUrl: 'https://github.com/mega-manipulator/mega-manipulator.github.io/tree/docsrc',
         },
         /*
         blog: {
