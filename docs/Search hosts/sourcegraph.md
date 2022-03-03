@@ -18,8 +18,7 @@ You might need to set the `patternType` depending on your search query:
 - `patternType:structural` if you are not doing a literal search, or case sensitive.
 - `patternType:regex` if you're doing a regex search.
 
-These values are set in your search query (but with `=` delimiter instead of `:`, if you don't know how to pinpoint naming).  
-For example:
+These values are set in your search query. For example:
 
 ```
 patternType:regex spring.datasource.url=.*/postgres file:.*.properties
