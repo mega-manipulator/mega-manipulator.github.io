@@ -11,8 +11,18 @@ In honor of that, I've set up a release train of the OSS parts of the product.
 
 ## Transfer search from sourcegraph to plugin
 Copy the search from the web to the plugin.  
-Same caveats as with `src cli` apply.  
-You might need to set the `petternType:structural` if you are not doing a literal search, or case sensitive. These values are set in the url (but with `=` delimiter instead of `:`, if you don't know how to pinpoint naming)
+Same caveats as with `src cli` apply.
+
+You might need to set the `patternType` depending on your search query:
+
+- `patternType:structural` if you are not doing a literal search, or case sensitive.
+- `patternType:regex` if you're doing a regex search.
+
+These values are set in your search query. For example:
+
+```
+patternType:regex spring.datasource.url=.*/postgres file:.*.properties
+```
 
 ## Developing
 
