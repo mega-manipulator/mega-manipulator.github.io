@@ -15,7 +15,7 @@ Same caveats as with `src cli` apply.
 
 You might need to set the `patternType` depending on your search query:
 
-- `patternType:structural` if you are not doing a literal search, or case sensitive.
+- `patternType:structural` if you are not doing a literal search, or case-sensitive.
 - `patternType:regex` if you're doing a regex search.
 
 These values are set in your search query. For example:

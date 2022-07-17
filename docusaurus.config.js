@@ -2,11 +2,11 @@
 module.exports = {
   title: 'Mega Manipulator (m²)',
   tagline: 'Change everything',
-  url: 'https://github.com/jensim/mega-manipulator',
+  url: 'https://github.com/mega-manipulator/mega-manipulator',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
-  favicon: 'https://raw.githubusercontent.com/jensim/mega-manipulator/main/src/main/resources/META-INF/pluginIcon.svg',
+  favicon: 'https://raw.githubusercontent.com/mega-manipulator/mega-manipulator/main/src/main/resources/META-INF/pluginIcon.svg',
   organizationName: 'mega-manipulator', // Usually your GitHub org/user name.
   projectName: 'mega-manipulator.github.io', // Usually your repo name.
   themeConfig: {
@@ -24,7 +24,7 @@ module.exports = {
           label: 'Tutorial',
         },
         {
-          href: 'https://github.com/jensim/mega-manipulator',
+          href: 'https://github.com/mega-manipulator/mega-manipulator',
           label: 'GitHub',
           position: 'right',
         },

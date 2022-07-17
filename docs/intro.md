@@ -10,7 +10,7 @@ Search and replace as if the borders of repositories, code hosts, pull requests,
 
 <!--
 Edit the flowchart using this link:
-https://app.diagrams.net/#Hjensim%2Fmega-manipulator%2Fdocs%2Fmega-manipulator-overall.svg
+https://app.diagrams.net/#Hmega-manipulator%2Fmega-manipulator%2Fdocs%2Fmega-manipulator-overall.svg
 -->
 
 # Search
